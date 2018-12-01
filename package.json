@@ -2,7 +2,7 @@
   "name": "tictactoe-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://laurenstewartgreen.github.io/tictactoe-react/",
+  "homepage": "https://laurenstewartgreen.github.io/tictactoe/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.6.3",
