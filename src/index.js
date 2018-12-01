@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+
 function Square(props) {
         return (
             <button
@@ -128,7 +129,10 @@ function checkFullBoard(squares) {
 
 // ========================================
 
+const domContainer = document.querySelector('#like_button_container');
+
 ReactDOM.render(
     <Game />,
-    document.getElementById('root')
+    document.getElementById('root'),
+    domContainer
 );
