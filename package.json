@@ -10,9 +10,8 @@
     "react-scripts": "2.1.1"
   },
   "scripts": {
-    "start": "npm run build",
-    "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot --history-api-fallback",
-    "build:prod": "webpack -p && cp src/index.html dist/index.html",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -26,8 +25,5 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ],
-  "devDependencies": {
-    "webpack-cli": "^3.1.2"
-  }
+  ]
 }
